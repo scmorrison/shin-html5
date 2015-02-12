@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML演習5</title>
+  <script>
+    function canvas_test()
+    {
+      var canvas = document.getElementById('myc');
+      var ct = canvas.getContext('2d');
+      ct.arc(50, 40, 30, 0, Math.PI * 2, false);
+      ct.stroke();
+    }
+  </script>
+</head>
+
+<body onload="canvas_test()">
+  <h1>円を描く</h1>
+  <canvas id="myc" width="100" height="100">このブラウザはcanvas要素に対応していません。</canvas>
+</body>
+
+</html>
