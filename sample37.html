@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML演習5</title>
+  <style type="text=/css">
+    table, tr, td, th {
+      border: 2px solid;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>ご宿泊料金表</h1>
+  <table>
+    <caption>ツインは2名様利用の料金、和室は4名様まで同額料金です。
+    <thead>
+      <tr>
+        <th colspan="2"></th>
+        <th colspan="2">洋室</th>
+        <th>和室</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th rowspan="2">素泊まり</th>
+        <th>禁煙</th>
+        <td>5,000円(シングル)</td>
+        <td>8,000円(ツイン)</td>
+        <td>9,000円</td>
+      </tr>
+      <tr>
+        <th> 喫煙</th>
+        <td>5,500円(シングル)</td>
+        <td>8,500円(ツイン)</td>
+        <td>9,500円</td>
+      </tr>
+      <tr>
+        <th>朝食付き</th>
+        <td colspan="4">素泊まり料金に、お一人様プラス1,000円になります。</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
