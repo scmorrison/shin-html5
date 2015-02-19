@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5演習</title>
+</head>
+<body>
+  <h1>ラジオボタンとチェックボックス</h1>
+  <form action="cgi/sample.php" method="post">
+    <p><label>ラジオボタン1:
+         <input type="radio" name="radio1" value="ラジオ1" checked>
+       </label>
+       <label>ラジオボタン2:
+         <input type="radio" name="radio1" value="ラジオ2">
+       </label></p>
+    <fieldset><legend>グループ名</label>
+      <p><label>ラジオボタン3:
+           <input type="radio" name="radio2" value="ラジオ3" checked>
+         </label>
+         <label>ラジオボタン4:
+           <input type="radio" name="radio2" value="ラジオ4">
+         </label></p>
+      <p><label>チェックボックス:
+           <input type="checkbox" name="utel">
+         </label></p>
+    </fieldset>
+    <p><input type="submit" value="送信"></p>
+  </form>
+</body>
+</html>
