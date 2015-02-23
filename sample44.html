@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5演習</title>
+</head>
+<body>
+  <h1>セレクト、テキストエリア</h1>
+  <form action="cgi/sample.php" method="post">
+    <p>
+      <label for="room">ベットの種類を選択してください:</label>
+      <select id="room" name="room">
+        <option selected value="single">シングル</option>
+        <option value="semi>セミダブル</option>
+        <option value="double">ダブル</option>
+      </select>
+    </p>
+    <p>
+      <label for="food">お食事を選択してください(複数選択可):</label>
+      <select id="food name="food" multiple size="2">
+        <option value="breakfast">朝食</option>
+        <option value="dinner">夕食</option>
+        <option value="supper">夜食</option>
+      </select>
+    </p>
+    <p>
+      <label for="demand">その他の、ご要望があれば記入してください:</lable><br>
+      <textarea id="demand" name="demand" cols="40" rows="4" maxlength="20">
+      </textarea>
+    </p>
+    <p>
+      <input type="submit" value="送信">
+    </p>
+  </form>
+</body>
+</html>
+    
