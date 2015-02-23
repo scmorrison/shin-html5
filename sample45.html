@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5演習</title>
+</head>
+<body>
+  <h1>会員登録</h1>
+  <form action="cgi/sample.php" method="post">
+    <p>
+      <label>メールアドレス:<input type="email" name="email" size="20"></label>
+    </p>
+    <p>
+      <label>パスワード:<input type="password" name="pass" size="20"></label>
+    </p>
+    <p>
+      <label>お名前:<input type="text" name="uname" size="20"></label>
+    </p>
+    <field set><legend>性別</label>
+      <input type="radio" name="radio1" value="male" id="male">
+      <label for="male>男性</label>
+      <input type="radio" name="radio1" value="female" id="female">
+      <label for="female">女性</label>
+    </field set>
+    <p>
+      <input type="cehckbox" name="news" id="checkbox"
+      <label for="checkbox">:お知らせの配信を希望する</label>
+    </p>
+    <p>
+      <input type="submit" value="送信">
+    </p>
+  </form>
+</body>
+</html>
+      
