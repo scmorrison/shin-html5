@@ -1,0 +1,7 @@
+@charset "utf-8";
+ol li:nth-child(2n) {
+  color: #ff0000;
+}
+ol li:nth-child(3) {
+  font size: 2em;
+}
