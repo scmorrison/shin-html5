@@ -1,6 +1,6 @@
 @charset "utf-8";
 #test01 { text-align: center }
-#test02 { text-indent: 2pm }
+#test02 { text-indent: 2em }
 #test03 { font-size: 10px }
 #test04 { font-family: Arial,"MS 明朝",serif }
 #test05 { color: #ff0000 }
