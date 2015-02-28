@@ -1,0 +1,26 @@
+@charset "utf-8";
+body {
+  background-image: url("../img/position.jpg");
+}
+header, nav, section, footer {
+  border:1px solid #999999;
+  border-radius:8px;
+  padding: 10px 10px 10px 10px;
+  background:#ffffff;
+}
+header {
+  position: absolute;
+  top: 20px; left: 20px; height: 60px; width: 560px;
+}
+nav {
+  position: absolute;
+  top: 120px; left: 20px; height: 340px; width: 80px;
+}
+section {
+  position: absolute;
+  top: 120px; left: 140px; height: 340px; wodth: 440px;
+}
+footer {
+  position: absolute;
+  top: 50px; left: 20px; height: 30px; width: 560px;
+}
