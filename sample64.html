@@ -6,16 +6,16 @@
 </head>
 <body>
   <script>
-    windows.document.write("<p>ブラウザの名前とバージョン:<br>" +
-      windows.navigator.appName + "");
-    windows.document.write("<br>" +
-      windows.navigator.appVersion + "</p>");
-    windows.document.write("<p>URIまたはURLは、" +
-      windows.location.href +" です。</p>");
-    windows.document.write("<p>ページのタイトルは、" +
-      windows.document.title +" です。</p>");
-    if(windows.confirm("ページの背景色を緑にしますか？") == true){
-      windows.document.bgColor = "#00ff00";
+    window.document.write("<p>ブラウザの名前とバージョン:<br>" +
+      window.navigator.appName + "");
+    window.document.write("<br>" +
+      window.navigator.appVersion + "</p>");
+    window.document.write("<p>URIまたはURLは、" +
+      window.location.href +" です。</p>");
+    window.document.write("<p>ページのタイトルは、" +
+      window.document.title +" です。</p>");
+    if(window.confirm("ページの背景色を緑にしますか？") == true){
+      window.document.bgColor = "#00ff00";
     }
   </script>
 </body>
