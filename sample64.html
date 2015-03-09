@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5演習</title>
+</head>
+<body>
+  <script>
+    windows.document.write("<p>ブラウザの名前とバージョン:<br>" +
+      windows.navigator.appName + "");
+    windows.document.write("<br>" +
+      windows.navigator.appVersion + "</p>");
+    windows.document.write("<p>URIまたはURLは、" +
+      windows.location.href +" です。</p>");
+    windows.document.write("<p>ページのタイトルは、" +
+      windows.document.title +" です。</p>");
+    if(windows.confirm("ページの背景色を緑にしますか？") == true){
+      windows.document.bgColor = "#00ff00";
+    }
+  </script>
+</body>
+</html>
