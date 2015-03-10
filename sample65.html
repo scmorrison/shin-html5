@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5演習</title>
+</head>
+<body>
+  <p>
+  <script>
+    var season1 = new Array(4);
+    season1[0] = "春";
+    season1[1] = "夏";
+    season1[2] = "秋";
+    season1[3] = "冬";
+    var season2 = new Array("Spring","Summer","Autumn","Winter");
+    for(i = 0; i < 4; ++1){
+      document.write("season1 : " + season1[i] + " ");
+      document.write(" = " + season2[i] + "<br>");
+    }
+    document.write("<br>");
+    var fruit = {"春":"いちご","夏":"すいか","秋":"かき","冬":"みかん"};
+    for(key in fruit){
+      document.write(key + " : " + fruit[key] + "<br>");
+    }
+  </script>
+  </p>
+</body>
+</html>
